@@ -1,3 +1,15 @@
+#mainnavbar {
+    font-weight: 700;
+    color: white;
+}
+#mainnavbar a {
+    color: white;
+}
+
+
+
+
+
 @font-face {
     font-family: 'Montserrat';
     font-style: normal;

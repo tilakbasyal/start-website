@@ -12,7 +12,7 @@
 </head>
 
 <body>
-    <nav id="mainnavbar" class="navbar navbar-expand-lg bg-secondary">
+    <nav id="mainnavbar" class="  fixed-top navbar navbar-expand-lg bg-secondary">
         <div class="container">
             <a class="navbar-brand" href="#">Start Bootstrap</a>
             <button class="navbar-toggler" data-toggle="collapse" data-target="#mynavbar">
@@ -31,9 +31,9 @@
 
     </nav>
 
-    <header class="bg-primary">
+    <header class="bg-primary header-content">
         <div class="container text-white text-center">
-            <img class="img-fluid" src="../start/images/profile.png" alt="profile">
+            <img class="img-fluid" src="images/profile.png" alt="profile">
             <h1>START BOOTSTRAP</h1>
             <hr>
             <h2>Web Developer-Graphic Artist-User Experience Designer</h2>
@@ -42,35 +42,35 @@
 
     <section id="portfolio">
         <div class="container">
-            <h2 class="text-center">PORTFOLIO</h2>
+            <h2 class="text-center portfolio">PORTFOLIO</h2>
             <hr>
             <div class="row">
-                <div class="col-md-6 col-lg-4">
+                <div class="col-md-6 col-lg-4 bottom-space-portfolio bottom-space-portfolio">
                     <a href="#">
                         <img class="img-fluid" src="images/cabin.png" alt="cabin">
                     </a>
                 </div>
-                <div class="col-md-6 col-lg-4">
+                <div class="col-md-6 col-lg-4 bottom-space-portfolio">
                     <a href="#">
                         <img class="img-fluid" src="images/cake.png" alt="cabin">
                     </a>
                 </div>
-                <div class="col-md-6 col-lg-4">
+                <div class="col-md-6 col-lg-4 bottom-space-portfolio">
                     <a href="#">
                         <img class="img-fluid" src="images/circus.png" alt="cabin">
                     </a>
                 </div>
-                <div class="col-md-6 col-lg-4">
+                <div class="col-md-6 col-lg-4 bottom-space-portfolio">
                     <a href="#">
                         <img class="img-fluid" src="images/game.png" alt="cabin">
                     </a>
                 </div>
-                <div class="col-md-6 col-lg-4">
+                <div class="col-md-6 col-lg-4 bottom-space-portfolio">
                     <a href="#">
                         <img class="img-fluid" src="images/safe.png" alt="cabin">
                     </a>
                 </div>
-                <div class="col-md-6 col-lg-4">
+                <div class="col-md-6 col-lg-4 bottom-space-portfolio">
                     <a href="#">
                         <img class="img-fluid" src="images/submarine.png" alt="cabin">
                     </a>
@@ -80,16 +80,17 @@
     </section>
 
     <section id="about">
-        <div class="container">
+        <div class="container about-parent">
+            <div class="about-child">
             <h1 class="text-center text-uppercase">about</h1>
             <hr>
             <div class="row">
-                <div class="col-lg-6">
+                <div class="col-lg-4 ml-auto">
                     <p>Freelancer is a free bootstrap theme created by Start Bootstrap. The download includes the
                         complete source files including HTML, CSS, and JavaScript as well as optional LESS stylesheets
                         for easy customization.</p>
                 </div>
-                <div class="col-lg-6">
+                <div class="col-lg-4 mr-auto">
                     <p>Whether you're a student looking to showcase your work, a professional looking to attract
                         clients, or a graphic artist looking to share your projects, this template is the perfect
                         starting point!</p>
@@ -97,46 +98,37 @@
             </div>
             <div class="text-center">
                 <a href="#">
-                    <btn class="btn">
+                    <btn class="btn btn-primary btn-outline-light btn-lg">
                         <i class="fa fa-download"></i>
                         Download Now
                     </btn>
                 </a>
             </div>
+            </div>
         </div>
     </section>
 
     <section id="contact">
-        <div class="container">
+        <div class="container col-lg-6">
             <h1 class="text-center text-uppercase">contact me</h1>
             <hr>
             <div class="row">
-                <div class="col-lg-8 mx-auto">
-                    <div class="control-group">
-                        <div class="form-group floating-label-form-group controls">
-                            <label>Name</label>
-                            <input type="text" placeholder="Name" required="required">
-                        </div>
+                <form>
+                    <div class="form-group">
+                        <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Name">
                     </div>
-                    <div class="control-group">
-                        <div class="form-group floating-label-form-group controls">
-                            <label>Email</label>
-                            <input type="email" placeholder="Email" required="required">
-                        </div>
+                    <div class="form-group">
+                
+                        <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="Email">
                     </div>
-                    <div class="control-group">
-                        <div class="form-group floating-label-form-group controls">
-                            <label>Phone Number</label>
-                            <input type="text" placeholder="Phone Number" required="required">
-                        </div>
+                    <div class="form-group">
+                        <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Phone Number">
                     </div>
-                    <div class="control-group">
-                        <div class="form-group floating-label-form-group controls">
-                            <label>Message</label>
-                            <input type="text" placeholder="Your Message" required="required">
-                        </div>
+                    <div class="form-group">
+                        <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="Message">
                     </div>
-                </div>
+                
+                </form>
             </div>
             <div class="form-group">
                 <btn class="btn btn-primary" type="submit">Send</btn>
@@ -149,34 +141,34 @@
             <div class="row">
                 <div class="col-md-4">
                     <h4 class="text-center text-uppercase">location</h4>
-                    <address>2215 John Daniel Drive <br>
-                    Clark, MO 65243</address>
+                    <address class="text-center">2215 John Daniel Drive <br>
+                        Clark, MO 65243</address class="text-center">
                 </div>
                 <div class="col-md-4">
                     <h4 class="text-center text-uppercase">around the web</h4>
                     <ul class="list-inline text-center">
-                        <li class="list-inline-item rounded-circle">
-                            <a class="btn " href="#">
+                        <li class="list-inline-item ">
+                            <a class=" btn btn-outline-light btn-social text-center rounded-circle" >
                                 <i class="fa fa-facebook"></i>
                             </a>
                         </li>
-                        <li class="list-inline-item rounded-circle">
-                            <a class="btn " href="#">
+                        <li class="list-inline-item ">
+                            <a class="btn btn-outline-light btn-social text-center rounded-circle">
                                 <i class="fa fa-google-plus"></i>
                             </a>
                         </li>
-                        <li class="list-inline-item rounded-circle">
-                            <a class="btn " href="#">
+                        <li class="list-inline-item">
+                            <a class="btn btn-outline-light btn-social text-center rounded-circle">
                                 <i class="fa fa-twitter"></i>
                             </a>
                         </li>
-                        <li class="list-inline-item rounded-circle">
-                            <a class="btn " href="#">
+                        <li class="list-inline-item">
+                            <a class="btn btn-outline-light btn-social text-center rounded-circle">
                                 <i class="fa fa-linkedin"></i>
                             </a>
                         </li>
-                        <li class="list-inline-item rounded-circle">
-                            <a class="btn " href="#">
+                        <li class="list-inline-item">
+                            <a class="btn btn-outline-light btn-social text-center rounded-circle">
                                 <i class="fa fa-dribbble"></i>
                             </a>
                         </li>
@@ -185,13 +177,11 @@
                 </div>
                 <div class="col-md-4">
                     <h4 class="text-center text-uppercase">about Freelancer</h4>
-                    <p class="text-center">Freelance is a free to use, open source Bootstrap theme created by <a href="#">
+                    <p class="text-center">Freelance is a free to use, open source Bootstrap theme created by <a
+                            href="#">
                             Start Bootstrap</a>.</p>
-
                 </div>
-
             </div>
-
         </div>
     </footer>
 
